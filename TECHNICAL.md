@@ -148,7 +148,6 @@ coastwatch/
 ├── test/                         # Dart tests (currently: gps_test.dart)
 │
 ├── pubspec.yaml                  # Flutter dependencies
-├── CLAUDE.md                     # project notes for Claude Code
 ├── GUIDE.md                      # presentation-ready French guide
 └── TECHNICAL.md                  # this file
 ```
