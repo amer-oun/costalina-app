@@ -3,7 +3,7 @@
 > A citizen-science mobile app that monitors the evolution of the Tunisian coastline through volunteer contributions. Client: **Iberostar**.
 
 <p align="center">
-  <img width="900" alt="Costalina — coastline map view" src="https://github.com/user-attachments/assets/100458bb-5629-482c-9ea6-88516826a01e" />
+  <img width="320" alt="Costalina — home screen" src="https://github.com/user-attachments/assets/16a1d1f6-75d2-4b93-b560-40b31810b089" />
 </p>
 
 **📱 Platform:** Android · iOS (Flutter)
