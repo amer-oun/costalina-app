@@ -73,12 +73,14 @@ Tunisia's ~1,300 km coastline is under continuous pressure from erosion, tourism
 
 | Layer | Tech |
 |---|---|
-| Framework | Flutter |
-| Language | Dart |
-| Backend / Auth | Firebase (Auth, Firestore, Storage) |
-| Maps & geolocation | Google Maps SDK · geolocator |
-| Image handling | Firebase Storage |
-| Weather API | Real-time meteo integration |
+| Mobile | Flutter · Dart |
+| Backend | Node.js · Express · MongoDB (Mongoose) |
+| Auth | JWT · bcryptjs · role-based moderator middleware |
+| Hardening | helmet · express-rate-limit · CORS |
+| Maps & geolocation | flutter_map (OpenStreetMap) · geolocator |
+| Image handling | image_picker · multer uploads |
+| AI features | Google Gemini (`@google/generative-ai`) |
+| Other | speech_to_text · fl_chart · nodemailer · flutter_secure_storage |
 | i18n | Flutter Intl (Arabic · French · English) |
 
 ## Getting started
@@ -86,11 +88,18 @@ Tunisia's ~1,300 km coastline is under continuous pressure from erosion, tourism
 ```bash
 git clone https://github.com/amer-oun/costalina-app
 cd costalina-app
+
+# 1. Backend — needs MongoDB running locally
+cd backend
+npm install
+cp .env.example .env       # set MONGODB_URI, JWT_SECRET, GEMINI_API_KEY
+node seed.js               # beaches fixtures
+node seed_rewards.js       # rewards fixtures
+npm start                  # http://localhost:3000
+
+# 2. Mobile app
+cd ..
 flutter pub get
-# Set up your Firebase config:
-#   - add google-services.json (Android)
-#   - add GoogleService-Info.plist (iOS)
-# Add your Google Maps API key and weather API key to environment
 flutter run
 ```
 
