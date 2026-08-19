@@ -14,6 +14,15 @@
 
 ---
 
+## Demo
+
+A full report, end to end: opening the map, photographing a coastal anomaly, and watching
+it land back on the map.
+
+https://github.com/user-attachments/assets/aacf1344-c0b1-475e-a99a-19581bba091c
+
+---
+
 ## What it does
 
 Costalina turns every citizen with a phone into a contributor to coastal science.
