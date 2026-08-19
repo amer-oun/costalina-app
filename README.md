@@ -2,6 +2,8 @@
 
 > A citizen-science mobile app that monitors the evolution of the Tunisian coastline through volunteer contributions. Client: **Iberostar**.
 
+[![CI](https://github.com/amer-oun/costalina-app/actions/workflows/ci.yml/badge.svg)](https://github.com/amer-oun/costalina-app/actions/workflows/ci.yml)
+
 <p align="center">
   <img width="320" alt="Costalina — home screen" src="https://github.com/user-attachments/assets/16a1d1f6-75d2-4b93-b560-40b31810b089" />
 </p>
